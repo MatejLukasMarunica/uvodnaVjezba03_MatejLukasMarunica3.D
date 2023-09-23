@@ -1,0 +1,7 @@
+C:\Users\PC\source\repos\uvodnaVjezba03_Matej Lukas Marunica 3.D\uvodnaVjezba03_Matej Lukas Marunica 3.D\bin\Debug\uvodnaVjezba03_Matej Lukas Marunica 3.D.exe.config
+C:\Users\PC\source\repos\uvodnaVjezba03_Matej Lukas Marunica 3.D\uvodnaVjezba03_Matej Lukas Marunica 3.D\bin\Debug\uvodnaVjezba03_Matej Lukas Marunica 3.D.exe
+C:\Users\PC\source\repos\uvodnaVjezba03_Matej Lukas Marunica 3.D\uvodnaVjezba03_Matej Lukas Marunica 3.D\bin\Debug\uvodnaVjezba03_Matej Lukas Marunica 3.D.pdb
+C:\Users\PC\source\repos\uvodnaVjezba03_Matej Lukas Marunica 3.D\uvodnaVjezba03_Matej Lukas Marunica 3.D\obj\Debug\uvodnaVjezba03_Matej Lukas Marunica 3.D.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\uvodnaVjezba03_Matej Lukas Marunica 3.D\uvodnaVjezba03_Matej Lukas Marunica 3.D\obj\Debug\uvodnaVjezba03_Matej Lukas Marunica 3.D.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\uvodnaVjezba03_Matej Lukas Marunica 3.D\uvodnaVjezba03_Matej Lukas Marunica 3.D\obj\Debug\uvodnaVjezba03_Matej Lukas Marunica 3.D.exe
+C:\Users\PC\source\repos\uvodnaVjezba03_Matej Lukas Marunica 3.D\uvodnaVjezba03_Matej Lukas Marunica 3.D\obj\Debug\uvodnaVjezba03_Matej Lukas Marunica 3.D.pdb
