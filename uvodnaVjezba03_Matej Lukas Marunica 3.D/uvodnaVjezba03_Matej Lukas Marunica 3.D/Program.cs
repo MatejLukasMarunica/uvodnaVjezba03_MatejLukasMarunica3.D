@@ -10,12 +10,14 @@ namespace uvodnaVjezba03_Matej_Lukas_Marunica_3.D
     {
         static void Main(string[] args)
         {
-            int a, b;
-            double c;
+            int a, b, c;
+            
+            sum = 0;
+           
             natrag:
             Console.Write("Unesi dužinu a stranicu ---> ");
             a = int.Parse(Console.ReadLine());
-            if (a < 1)
+            if (a <= 0)
             {
                 Console.Write("Unesi dužinu a stranicu ponovno");
                 Console.WriteLine();
@@ -24,7 +26,7 @@ namespace uvodnaVjezba03_Matej_Lukas_Marunica_3.D
             }
             Console.Write("Unesi dužinu b stranicu ---> ");
             b = int.Parse(Console.ReadLine());
-            if (b < 1)
+            if (b <= 0)
             {
                 Console.Write("Unesi dužinu b stranicu ponovno");
                Console.WriteLine();
@@ -32,10 +34,57 @@ namespace uvodnaVjezba03_Matej_Lukas_Marunica_3.D
                 goto natrag;
             }
 
-            c = Math.Sqrt((a*a)+(b*b));
-            c = Convert.ToInt32(c);
+            Console.Write("Unesi dužinu c stranice ---> ");
+            c = int.Parse(Console.ReadLine()); 
+            if (c <= 0)
+            {
+                Console.Write("Unesi dužinu c stranicu ponovno");
+               Console.WriteLine();
+                c = 0;
+                goto natrag;
+            }
 
-            Console.WriteLine(" a stranica iznosi: " + a + " b stranica iznosi: " + b + " a hipotenuza odnosno c stranica iznosi: " + c);
+            if(a > b && a > c)
+            {
+                double sum = Math.sqrt((b*b)+(c*c));
+
+                    if(a == sum)
+                    {
+                        Console.WriteLine("Dimentije pravokutnog trokuta su ispravne");
+                    } 
+                else
+                {
+                    Console.WriteLine("Dimentije pravokutnog trokuta su nisu ispravne");
+                }
+            }    
+            else if (b > a && b > c)
+            {
+                 double sum = Math.sqrt((a*a)+(c*c));
+
+                    if(b == sum)
+                    {
+                        Console.WriteLine("Dimentije pravokutnog trokuta su ispravne");
+                    } 
+                else
+                {
+                    Console.WriteLine("Dimentije pravokutnog trokuta su nisu ispravne");
+                }
+            }
+            else
+            {
+                double sum = Math.sqrt((a*a)+(b*b));
+
+                    if(c == sum)
+                    {
+                        Console.WriteLine("Dimentije pravokutnog trokuta su ispravne");
+                    } 
+                else
+                {
+                    Console.WriteLine("Dimentije pravokutnog trokuta su nisu ispravne");
+                }
+                
+            }
+            
             Console.ReadKey();
         }
     }
